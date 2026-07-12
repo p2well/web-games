@@ -53,13 +53,13 @@
 
         .subtitle {
             color: var(--cyan);
-            font-size: 0.9rem;
-            margin: 0 0 40px;
+            font-size: 1.2rem;
+            margin: 0 0 44px;
         }
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 24px;
             width: 100%;
             max-width: 900px;
@@ -71,7 +71,7 @@
             color: inherit;
             border: 3px solid var(--neon-green);
             background: #050505;
-            padding: 28px 20px;
+            padding: 32px 26px;
             box-shadow: 0 0 8px rgba(0, 255, 0, 0.4), inset 0 0 20px rgba(0, 0, 0, 0.6);
             transition: transform 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
         }
@@ -84,30 +84,37 @@
 
         .card .title {
             color: var(--yellow);
-            font-size: 1.4rem;
-            margin: 0 0 10px;
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0 0 12px;
+            text-shadow: 0 0 6px rgba(255, 255, 0, 0.5), 0 0 14px rgba(255, 255, 0, 0.25);
         }
 
         .card .desc {
-            color: #cccccc;
-            font-size: 0.8rem;
-            line-height: 1.5;
-            margin: 0 0 16px;
+            color: #d6d6d6;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            margin: 0 0 18px;
             letter-spacing: 1px;
         }
 
         .card .cta {
             color: var(--hot-pink);
-            font-size: 0.85rem;
+            font-size: 1.1rem;
         }
 
         footer {
-            margin-top: 48px;
-            color: #555;
-            font-size: 0.7rem;
+            margin-top: 56px;
+            color: #8fb0c0;
+            font-size: 0.95rem;
         }
 
-        footer a { color: var(--cyan); text-decoration: none; }
+        footer a {
+            color: var(--cyan);
+            text-decoration: none;
+            font-weight: bold;
+            text-shadow: 0 0 6px rgba(0, 204, 255, 0.4);
+        }
     </style>
 </head>
 <body>
