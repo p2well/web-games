@@ -1,0 +1,6 @@
+# Code owners for web-games.
+# Enables branch protection rules that require code owner review on main.
+# See: https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repo.
+* @p2well
