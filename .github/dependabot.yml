@@ -1,0 +1,23 @@
+version: 2
+updates:
+  # GitHub Actions used by the deploy workflow.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: ci
+    labels:
+      - dependencies
+      - github-actions
+
+  # npm dependencies for the snake game.
+  - package-ecosystem: npm
+    directory: /snake
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: chore
+    labels:
+      - dependencies
+      - npm
